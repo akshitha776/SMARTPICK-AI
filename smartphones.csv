@@ -1,0 +1,11 @@
+@"
+id,brand,model,price,ram,storage,processor,camera,battery,display,refresh_rate,charging,network,rating,gaming_score,camera_score,battery_score
+1,Samsung,Galaxy M35 5G,22999,8,128,Exynos 1380,50MP,6000mAh,AMOLED,120Hz,25W,5G,4.4,78,85,95
+2,Redmi,Note 13 5G,18999,8,128,Dimensity 6080,108MP,5000mAh,AMOLED,120Hz,33W,5G,4.3,72,92,82
+3,OnePlus,Nord CE 3 Lite 5G,21999,8,128,Snapdragon 695,108MP,5000mAh,LCD,120Hz,67W,5G,4.2,75,88,80
+4,iQOO,Z9 5G,20999,8,128,Dimensity 7200,50MP,5000mAh,AMOLED,120Hz,44W,5G,4.3,92,80,82
+5,Motorola,Edge 50 Fusion,24999,8,128,Snapdragon 7s Gen 2,50MP,5000mAh,pOLED,144Hz,68W,5G,4.5,85,90,84
+6,Realme,12 Pro 5G,23999,8,128,Snapdragon 6 Gen 1,50MP,5000mAh,AMOLED,120Hz,67W,5G,4.4,76,91,83
+7,Nothing,Phone 2a,23999,8,128,Dimensity 7200 Pro,50MP,5000mAh,AMOLED,120Hz,45W,5G,4.4,88,86,84
+8,Poco,X6 5G,21999,8,256,Snapdragon 7s Gen 2,64MP,5100mAh,AMOLED,120Hz,67W,5G,4.3,90,84,86
+"@ | Set-Content -Encoding UTF8 "data\smartphones.csv"
